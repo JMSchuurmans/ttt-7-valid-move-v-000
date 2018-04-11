@@ -1,4 +1,4 @@
-string.to_i - 1
+board[index].to_i - 1
 
 def valid_move?(board, index)
   if index > 0 && index < 9 && position_taken?(board, index) == true
